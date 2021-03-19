@@ -19,4 +19,6 @@ dependencies {
     compile "ch.qos.logback:logback-classic:$logbackVersion"
 
     testCompile project(":components:test-support")
+
+    compile "io.pivotal.spring.cloud:spring-cloud-services-starter-config-client"
 }
